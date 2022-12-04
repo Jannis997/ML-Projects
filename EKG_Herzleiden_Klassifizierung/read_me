@@ -1,1 +1,12 @@
-er
+Arrhythmia Dataset
+
+This project processes the Arrhythmia Dataset from Physionet's MIT-BIH. 
+This dataset contains 109446 samples that correspond to electrocardiogram (ECG) signals of heartbeats.
+Each sample represents one heartbeat.
+The first 187 columns of each sample represent the ECG signal of the heartbeat, measured in a frequency of 125 Hz.
+The last column represents the class that the heartbeat is part of.
+There are 5 classes: Normal, Supraventricular, Ventricular, Fusion, Unknown.
+
+In this project i focused on a solution using a Deep Neural Network.
+For this i am neglecting other possible solutions like other classsification models and also 
+Convolutional Neural Networks.
