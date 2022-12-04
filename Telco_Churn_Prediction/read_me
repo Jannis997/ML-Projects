@@ -1,1 +1,13 @@
-s
+Telco Customer Churn Dataset
+
+This project processes the Telco Customer Churn Dataset from IBM. 
+This dataset is about a fictional telecommunication provider which faces churn of his customers.
+Each row of this dataset represents one customer and each columns contains customer's attributes.
+One of the attribute is Churn (the label) and is eaither 0 (No Churn) or 1 (Churn).
+The other columns contain information about the Services that each customer has signed up to, demographic information about the customer
+and customer account information (Charges, payment method...).
+
+In this project i focused on a solution using classic maschine learning techniques such as logistic regression,
+RandomForest, KNeighbors...)
+I also used ensemble methods to combine the best performing models.
+
